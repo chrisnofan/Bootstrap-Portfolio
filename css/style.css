@@ -1,3 +1,11 @@
-.navbar-right{
-    margin-left: 0 !important;
+body {
+    background-color: lightgreen;
 }
+.navbar-brand img {
+    padding-right: 15px;
+    width: 75px;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    /* margin-right: 0 !important; */
+  }
