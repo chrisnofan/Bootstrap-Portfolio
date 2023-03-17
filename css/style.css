@@ -1,11 +1,22 @@
 body {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 .navbar-brand img {
-    padding-right: 15px;
-    width: 75px;
+  padding-right: 15px;
+  width: 75px;
+}
+.navbar-nav {
+  margin-left: auto;
+  /* margin-right: 0 !important; */
+}
+
+.container {
+    width: 600%;
+    border: 10px !important;
   }
-  .navbar-nav {
-    margin-left: auto;
-    /* margin-right: 0 !important; */
-  }
+
+.card1 {
+  width: 80%;
+  height: 200px;
+  justify-content: center;
+}
