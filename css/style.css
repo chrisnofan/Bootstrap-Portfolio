@@ -1,5 +1,11 @@
+:root {
+
+  --primary: lightgreen;
+
+}
+
 body {
-  background-color: lightgreen;
+  background-color: var(--primary);
 }
 .navbar-brand img {
   padding-right: 15px;
@@ -9,14 +15,27 @@ body {
   margin-left: auto;
   /* margin-right: 0 !important; */
 }
-/* 
+
 .jumbo {
-    width: 80% !important;
+    width: 90% !important;
     border: 10px !important;
   }
 
+  .row {
+    width: 95%;
+    border-bottom: 40px;
+  }
+/* 
 .card1 {
   width: 80%;
   height: 200px;
   justify-content: center;
+  border-bottom: 40px;
 } */
+
+.items {
+  margin-left: 0px;
+  text-align: center;
+  width: 20%;
+  
+}
