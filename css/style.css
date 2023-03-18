@@ -39,3 +39,32 @@ body {
   width: 20%;
   
 }
+
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+}
+.footNav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  
+}
+.footNav li {
+  display: inline-block;
+  padding: 1rem;
+}
+.footNav a {
+  text-decoration: none;
+  color: var(--txtc);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.footNav a:hover {
+  color: var(--acc2);
+}
+
